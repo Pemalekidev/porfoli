@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>MalekiPetemaPortofolio</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./malo.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init("obiZMuCpRD-4nzJ3u");
+  })();
+</script>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a class="logo" id="doo">
+        <!--img src="./assets/images/favion.svg" class="rad" width="119" height="37" alt="Wren logo"-->Maleki@Petema
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./malo.svg" width="119" height="37" alt="M Portfolio">Maleki Petema Portofolio
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>A propos</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Services</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Projets</a>
+          </li>
+
+          <li>
+            <a href="#Contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <!--div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Steven !</p>
+
+              <p class="card-subtitle">
+                You have 3 new messages
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+        </!--div>
+
+        <p-- class="copyright-text">
+          Copyright 2022 © Wren - Personal Blog Template.
+          Developed by codewithsadee
+        </p-->
+
+      </nav>
+
+      
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      
+      <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center" -->
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">La créativité est contagieuse, faites-la tourner !</p>
+
+            <h1 class="headline headline-1 section-title">
+              Bienvenu chez <span class="span">M-SOCIETY</span>
+            </h1>
+
+            <p class="hero-text">
+              Création des Sites Web (Application web et Mobile), Logiciels,
+              Logo, Carte de Visite et de Mariage 
+            </p>
+            <a href="./assets/CV_PETEMA-MALEKI.pdf" class="logo">
+            <button class="btn btn-primary">
+              
+              <span class="span">CV Petema Maleki</span>
+              
+            
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+            </a>
+
+            <!--div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Entrer votre address email" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Envoyer</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button-->
+
+            <!---/div><br--->
+
+          </div>
+         
+
+          <div class="hero-banner">
+            <br><br>
+
+            <img src="./assets/images/msociety.jpg" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+    </section>
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+          <h2 class="headline headline-2 section-title">
+            <span class="span">JE SUIS</span>
+          </h2>
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+            
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+              PETEMA MALEKI PROGRAMMEUR AUTODIDACTE <font color="white">et</font> <span class="span">Electrotechnicien</span>
+              </h2>
+
+              <p class="card-text">
+                Languages de Programmation :<font color="white"> JAVASCRIPT, PYTHON</font>. 
+              </p>
+              <p class="card-text">
+                Framework :<font color="white"> REACT JS, CAPACITOR, ELECTRON JS</font>.
+              </p>
+
+              <!--div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </!--div-->
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/malekipp.jpeg" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Petema Maleki</span>
+
+                      <p class="slider-subtitle">#ENOCH</p>
+                    </div>
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+      <!-- 
+        - #FEATURED POST
+      -->
+      
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Mes Services</span>
+          </h2>
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/siteweb.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="" class="span hover-2"></a>
+
+                      <a href="" class="span hover-2"></a>
+                    </div>
+
+                    <div class="wrapper">
+                      <!--ion-icon name="time-outline" aria-hidden="true"></-ion-icon-->
+
+                      <span class="span"></span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a class="card-title hover-2">
+                      Développement Web
+                    </a>
+                  </h3>
+
+                  <!--div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title"></p>
+
+                        <p class="card-subtitle"></p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn"></a>
+
+                  </!div-->
+
+                </div>
+
+              </div>
+            </li>
+
+            <!---------------------------------------------->
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/mobileapp.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="" class="span hover-2"></a>
+
+                      <a href="" class="span hover-2"></a>
+                    </div>
+
+                    <div class="wrapper">
+                      <!--ion-icon name="time-outline" aria-hidden="true"></-ion-icon-->
+
+                      <span class="span"></span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a  class="card-title hover-2">
+                      Développement Mobile et Logiciels
+                    </a>
+                  </h3>
+
+                  <!--div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title"></p>
+
+                        <p class="card-subtitle"></p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn"></a>
+
+                  </!div-->
+
+                </div>
+
+              </div>
+            </li>
+
+            <!-------------------------------------------->
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/log1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="" class="span hover-2"></a>
+
+                      <a href="" class="span hover-2"></a>
+                    </div>
+
+                    <div class="wrapper">
+                      <!--ion-icon name="time-outline" aria-hidden="true"></-ion-icon-->
+
+                      <span class="span"></span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a class="card-title hover-2">
+                      Création des Logos
+                    </a>
+                  </h3>
+
+                  <!--div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title"></p>
+
+                        <p class="card-subtitle"></p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn"></a>
+
+                  </!div-->
+
+                </div>
+
+              </div>
+            </li>
+
+            <!--------------------------------------->
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/cart1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="" class="span hover-2"></a>
+
+                      <a href="" class="span hover-2"></a>
+                    </div>
+
+                    <div class="wrapper">
+                      <!--ion-icon name="time-outline" aria-hidden="true"></-ion-icon-->
+
+                      <span class="span"></span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a  class="card-title hover-2">
+                      Carte de Mariage
+                    </a>
+                  </h3>
+
+                  <!--div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title"></p>
+
+                        <p class="card-subtitle"></p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn"></a>
+
+                  </!div-->
+
+                </div>
+
+              </div>
+            </li>
+
+            <!-----*******************************-->
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/plan.webp" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="" class="span hover-2"></a>
+
+                      <a href="" class="span hover-2"></a>
+                    </div>
+
+                    <div class="wrapper">
+                      <!--ion-icon name="time-outline" aria-hidden="true"></-ion-icon-->
+
+                      <span class="span"></span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a  class="card-title hover-2">
+                      Conception et réalisation de plan Electrique avec Autocad
+                    </a>
+                  </h3>
+
+                  <!--div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title"></p>
+
+                        <p class="card-subtitle"></p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn"></a>
+
+                  </!div-->
+
+                </div>
+
+              </div>
+            </li>
+            
+
+          </ul>
+
+
+        </div>
+
+       </section>
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Mes projets</span>
+            </h2>
+            <ul class="grid-list">
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/desktop.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">DIMASC   (en cour...)</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a class="link hover-2">Logiciels de dimensionnement d'un ascenseur</a>
+                    </h3>
+
+                    <!--p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </!--p-->
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a  class="span hover-2"></a>
+
+                        <a  class="span hover-2"></a>
+                      </div>
+
+                      <!--div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </!--div-->
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/android.webp" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">INTERROGE MOI</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a >Une application mobile base sur le chritsianisme</a><br>
+                      <hr>
+                      <a href="./assets/INTEROGE_MOI_1.0.apk" class="link hover-2 headline headline-2 section-title">Telecharger APK</a>
+                    </h3>
+
+                    <!--p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </!--p-->
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a  class="span hover-2"></a>
+
+                        <a  class="span hover-2"></a>
+                      </div>
+
+                      <!--div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </!--div-->
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <!--li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/voyages6.webp" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">EDTEL</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a class="link hover-2">Site web pour l'entreprise EDTEL</a>
+                      <a href="">Visité le site EDTEL</a>
+                    </h3>
+
+                    <!p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </!--p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a  class="span hover-2"></a>
+
+                        <a  class="span hover-2"></a>
+                      </div>
+
+                      <!div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </!--div->
+                    </div>
+
+                  </div>
+
+                </div>
+              </li-->
+
+              
+
+              
+
+            </ul>
+
+          </div>
+
+
+
+          <!--div class="card aside-card">
+
+            <h3 class="headline headline-2 aside-title">
+              <span class="span">Temoignage des Clients</span>
+            </h3>
+
+            <ul class="comment-list">
+
+              <li>
+                <div class="comment-card">
+
+                  <blockquote class="card-text">
+                    “ Nous sommes satisfaits des prestations de l'EDTEL “
+                  </blockquote>
+
+                  <div class="profile-card">
+                    <figure class="profile-banner img-holder">
+                      <!--img src="./assets/images/author-6.png" width="32" height="32" loading="lazy" alt="Jane Cooper"-->
+                    <!--/figure>
+
+                    <div>
+                      <p class="card-title">Jane Cooper</p>
+
+                      <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="comment-card">
+
+                  <blockquote class="card-text">
+                    “ Nous sommes satisfaits des prestations de l'EDTEL “
+                  </blockquote>
+
+                  <div class="profile-card">
+                    <figure class="profile-banner img-holder">
+                      <!--img src="./assets/images/author-7.png" width="32" height="32" loading="lazy" alt="Katen Doe"-->
+                    <!--/figure>
+
+                    <div>
+                      <p class="card-title">M. Henoc</p>
+
+                      <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="comment-card">
+
+                  <blockquote class="card-text">
+                    “ Nous sommes satisfaits des prestations de l'EDTEL “
+                  </blockquote>
+
+                  <div class="profile-card">
+                    <figure class="profile-banner img-holder">
+                      <!--img src="./assets/images/author-8.png" width="32" height="32" loading="lazy"
+                        alt="Barbara Cartland"-->
+                    <!--/figure>
+
+                    <div>
+                      <p class="card-title">Henoc Henoc</p>
+
+                      <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          <div--->
+
+        </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="Contact">
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a  class="logo">
+              <img src="./malo.svg" class="rad" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              La créativité est contagieuse, faites-la tourner !
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              Leo-2000 <br>
+              Lomé, Togo 
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+            
+            <div class="contact-text">
+              <h5>Contactez -<span>Moi !</span></h5>
+              <h4>Si vous aviez un projet.</h4>
+              <p>Création des Sites web, Applications Mobile, Logiciel Bureau .</p>
+              <div class="list">
+                <li><a href="#">+228 92 80 80 78</a></li><br>
+                <li><a href="#">+228 96 56 16 34</a></li><br>
+                <li><a href="#" &#x1F4E7;>petmaleki97@gmail.com</a></li><br>
+                <!--li><a href="#">N'importe quel idiot peut écrire du code qu'un ordinateur peut comprendre. Les bons programmeurs
+                    écrivent du code que les humains peuvent comprendre.</a></li-->
+              </div>
+            
+              <!--div class="contact-icons">
+                        				<a href=""><i class='bx bxl-facebook' ></i></a>
+                        				<a href="https://twitter.com/HenocPetema"><i class='bx bxl-twitter' ></i></a>
+                        				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                        				<a href="#"><i class='bx bxl-youtube' ></i></a>
+                        			</!--div-->
+            </div>
+            <!--
+            <p class="footer-list-title">Heure d'ouverture</p>
+
+            <ul>
+
+              <li>
+                <a  class="footer-link hover-2">Lundi <p class="footer-list-title">08h-23h <span class="oufer" id="un"></span></p></a>
+              </li>
+
+              <li>
+                <a  class="footer-link hover-2">Mardi <p class="footer-list-title">08h-23h <span class="oufer" id="deu"></span></p></a>
+              </li>
+
+              <li>
+                <a  class="footer-link hover-2">Mercredi <p class="footer-list-title">08h-23h <span class="oufer" id="trois"></span></p></a>
+              </li>
+
+              <li>
+                <a  class="footer-link hover-2">Jeudi <p class="footer-list-title">08h-23h <span class="oufer" id="quatre"></span></p></a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Vendredi <p class="footer-list-title">08h-23h <span class="oufer" id="cinq"></span></p></a>
+              </li>
+
+              <li>
+                <a  class="footer-link hover-2">Samedi <p class="footer-list-title">08h-23h  <span class="oufer" id="sis"></span></p></a>
+              </li>
+            </ul>
+              -->
+              
+          </div>
+
+          <div class="footer-list">
+
+            
+
+            <!--p class="footer-text">
+              Inscrivez-vous pour être informer de nos activités</!--p>
+           <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Entre votre nom" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Entre votre address Emaill " required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a-- href="#" class="btn btn-primary">
+              <span class="span">Envoyer</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a-->
+            <!----contact section design--->
+	<section class="contact" id="contact">
+    <p class="footer-list-title">Nous Ecrire </p>
+		<div class="contact-form">
+			<form action="">
+				<input type="name" id="name" placeholder="Votre Nom" required>
+				<input type="email" id="email"  placeholder="Votre Address Email" required>
+				<input type="" id="number" placeholder="Votre Numero d Téléphone" required>
+				<textarea name="" id="message" cols="35" rows="10" placeholder="Comment vous aidez" required></textarea>
+				<input type="submit" id="btn"  value="Envoyer" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link"> Maleki Petema Portofolio.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a  class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+
+                <span class="span">Facebook</span>
+              </a>
+            </li>
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+</body>
+  <!-- 
+    - custom js link
+  -->
+  
+  <script>
+    /*function sendMail(){
+      var params = {
+        name : document.getElementById("name").value,
+        number: document.getElementById("number").value,
+        email : document.getElementById("email").value,
+        message: document.getElementById("message").value
+
+      };
+      const serviceID = "service_n8akn4r";
+      const templateID = "template_r0psoga";
+
+      emailjs.send(serviceID, templateID, params).then((res) => {
+        document.getElementById("name").value = "";
+        document.getElementById("number").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("your message sent succe")
+      })
+        .catch((err) => console.log(err));
+
+    }*/
+    
+    var btn = document.getElementById('btn');
+    btn.addEventListener('click', function(e){
+      e.preventDefault()
+      var params = {
+        name: document.getElementById("name").value,
+        number: document.getElementById("number").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+
+      };
+      const serviceID = "service_n8akn4r";
+      const templateID = "template_r0psoga";
+
+      emailjs.send(serviceID, templateID, params).then((res) => {
+        document.getElementById("name").value = "";
+        document.getElementById("number").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("Votre message a été bien envoyé")
+      })
+        .catch((err) => console.log(err));
+
+    })
+
+
+  </script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</html>
